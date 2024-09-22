@@ -4,7 +4,7 @@ using namespace std;
  public:
  Class Teacher {
     string name;
-    string dep;
+    string dept;
     string subject;
 
  };
