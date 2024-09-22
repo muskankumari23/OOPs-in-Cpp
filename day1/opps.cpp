@@ -5,7 +5,10 @@ using namespace std;
  Class Teacher {
     string name;
     string dept;
-    string subject;
+    string subject; 
+    void changeDept (string newDept){
+        dept = newDep;
+    }
 
  };
  int main(){
