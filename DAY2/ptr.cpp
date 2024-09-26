@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
  using namespace std;
-  class Teacher (String name, String dept, String subject );{
+  class Teacher {
+    public:
+    Teacher (String name, String dept, String subject );{
 
 
   this->name =name; 
@@ -15,5 +17,6 @@
     Teacher t1 ("abc ", "def ","ghi");
     t1.getInfo();
     return 0;
+  }
   }
   
