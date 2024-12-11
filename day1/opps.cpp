@@ -1,11 +1,12 @@
 #include <iostream> 
 #include <string>
 using namespace std;
- public:
+ 
  Class Teacher {
-    string name;
+   public:
+    string name; //atributes
     string dept;
-    string subject; 
+    string subject; //method / member funtions
     void changeDept (string newDept){
         dept = newDep;
     }
